@@ -54,7 +54,7 @@ const OrgSidebar = () => {
                 Team boards
             </Link>
         </Button>
-        <Button variant={"ghost"} asChild size="lg" className="font-normal justify-start px-2 w-full">
+        <Button variant={favorites?"secondary":"ghost"} asChild size="lg" className="font-normal justify-start px-2 w-full">
             <Link href={{
                 pathname: '/',
                 query: {favorites: true}
